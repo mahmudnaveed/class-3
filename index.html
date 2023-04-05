@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- <link rel="icon" href=""> -->
+</head>
+<body>
+    <form action=""> 
+        <div>
+
+        <h1>College Admission Form</h1> <br>
+        <p>If you'd like to apply to our college, please fill in this College Admission 
+            Form and we will contact you as soon as possible.</p><hr> <br><br>
+        
+            <label for=""> Programme Applied For:</label> <br>
+                <input type="checkbox" name="" id="cht"> 
+            <label for="cht"> Computer Hardware Technician</label> <br>
+                <input type="checkbox" name="" id="cnt"> 
+            <label for="cnt"> Computer Network Technician</label> <br>
+                <input type="checkbox" name="" id="gi"> 
+            <label for="gi"> General Electrician</label> <br> <br>
+        </div> 
+
+        <fieldset>
+            <legend>Personal Info.: </legend>  
+        <div>
+            <label for="name">Full Name Of Applicant</label> <br>
+                <input type="text" placeholder="First">
+                <input type="text" placeholder="Middle">
+                <input type="text" placeholder="Last"> <br><br>
+        </div>
+        <div>
+            <label for="Parent Name">Parent/Guardian's Name</label> <br>
+                <input type="text" placeholder="First">
+                <input type="text" placeholder="Middle">
+                <input type="text" placeholder="Last"> <br><br>
+        </div>
+        <div>
+            <label for="Parent Occupation">Parent/Guardian's Occupation</label> <br>
+                <input type="text" placeholder=""> <br><br>
+        </div>
+            <label for="DOB">Date of Birth</label> <br>
+                <input type="datetime-local" placeholder="" min="2006"> <br><br>
+        <div>
+            <label for="">Gender :</label> <br>
+                <input type="radio" name="gender" id="male">
+            <label for="male">Male</label> <br>
+                <input type="radio" name="gender"  id="female"> 
+            <label for="female">Female</label> <br>
+                <input type="radio" name="gender" id="others"> 
+            <label for="others">Others</label> <br><br>
+        </div>       
+        <div>
+            <label for="">Current Address</label> <br><br>
+                <input type="text" placeholder="Street address"> <br><br>
+                <input type="text" placeholder="Street address 2"> <br><br>
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="Region"> <br><br>
+                <input type="text" placeholder="Postal/Zap code">
+                <label for="Country">Country :</label>
+                    <select name="country" id="country">
+                        <optgroup label="South Asian">
+                            <option value="">Select Country</option>
+                            <option selected value="">Bangladesh</option>
+                            <option value="">India</option>
+                            <option value="">Pakistan</option>
+                            <option value="">Nepal</option>
+                            <option value="">Maldives</option>
+                        </optgroup>
+                        <optgroup label="Eouropean">
+                            <option disabled value="">Italy</option>
+                            <option value="">Belgium</option>
+                            <option value="">France</option>
+                            <option value="">Switzerland</option>
+                            <option value="">Germany</option>
+                        </optgroup>
+                    </select> <br><br>
+        </div>
+        <div>
+            <label for="">Permanent Address:</label> <br>
+            <textarea name="" id="" cols="40" rows="5"></textarea> <br><br>
+        </div>
+            <label for="fb id"> Facebook ID</label> 
+                <input type="url" name="" id="" placeholder=""> <br><br>
+            <label for="fb pass"> Facebook Password</label> 
+                <input type="password" name="" id="" placeholder="" minlength="8"> <br><br>
+            <label for="e-mail"> E-mail</label> 
+                <input type="email" placeholder="email"> <br><br>
+            <label for="phone"> Mobile</label> 
+             <input type="tel" placeholder="*************" maxlength="11"> <br><br>
+            <label for="age"> Age</label> 
+                <input type="number" placeholder="" min="15"> <br><br> 
+            <label for=" fav color">Favourite color:</label> 
+                <input type="color" name="" id="" placeholder=""> <br><br>
+            <label for="file">All Certifacates</label>
+                <input type="file" multiple placeholder="attach your certicafates here"> <br><br>
+            <label for="img">Add your Image</label>
+                <input type="file" placeholder="image"> <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>    
+    </form>
+</body>
+</html>
